@@ -16,7 +16,7 @@ def calculate(arg):
             elif token == '-':
                 result = val1 - val2
             elif token == '^':
-                result == pow(val1, val2)
+                result = pow(val1, val2)
             
             stack.append(result)
 
